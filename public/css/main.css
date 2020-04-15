@@ -1,0 +1,51 @@
+body {
+    background: #A770EF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgb(248, 245, 244), rgb(171, 169, 172), rgb(10, 10, 10));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgb(248, 245, 244), rgb(171, 169, 172), rgb(10, 10, 10));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-brand {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Spicy Rice', cursive;
+}
+
+header img {
+    width: 60%;
+}
+
+/* Página de inicio*/
+
+.container {
+    padding: 50px;
+    padding-top: 20px;
+    display: block;
+}
+
+.container .image {
+    float: left;
+    width: 100%;
+}
+
+.video {
+    list-style: square;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-left: 1000px;
+    margin-right: 1000px;
+    margin-bottom: 1000px;
+}
+
+#lista li {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
